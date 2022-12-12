@@ -180,6 +180,7 @@ For Each ws In Worksheets
     'format table
     ws.Columns("P:Q").HorizontalAlignment = xlCenter
     ws.Columns("O:Q").AutoFit
+    ws.Cells(4, 17).NumberFormat = "0.00E+00"
 
         
         
